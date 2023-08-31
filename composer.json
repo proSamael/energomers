@@ -1,0 +1,28 @@
+{
+    "name": "prosamael/energomer",
+    "description": "Energomer",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/proSamael/energomer",
+    "autoload": {
+        "psr-4": {
+            "CE102R51\\": "src/CE102R51",
+            "M236\\": "src/M236"
+        },
+        "classmap": [
+            "src/SocketClient.php",
+            "src/Utils.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Иванченко Кирилл Александрович",
+            "email": "pro100.ink@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "ext-sockets": "*"
+    }
+}
